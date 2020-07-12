@@ -3,6 +3,8 @@ package eCommerceCart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import redis.clients.jedis.Jedis;
 public class Controller {   
 
 	/*
@@ -14,6 +16,8 @@ public class Controller {
 	 * System.out.println("Server is running: "+jedis.ping()); }
 	 */
 	public static void main(String[] args) {
+
+		
 		SpringApplication.run(Controller.class, args);
 	}
 }
